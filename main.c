@@ -25,6 +25,8 @@ int main( void )
 	printf( "Reading source ... \n" );
 	readArray( source );
 	
+	printf( "\nEnding program...\n" );
+	
 	return 0;
 }
 
@@ -49,5 +51,6 @@ int readArray( char *str )
 		printf( "%c ", str[i++] );
 	}
 	printf( "\n" );
+	
 	return 0;
 }
