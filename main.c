@@ -9,7 +9,7 @@ int main( void )
 	
 	printf( "First version\n" );
 	printf( "a es %d\n", a );
-	printf( "b es %d\n", b );
+	printf( "b es %s\n", b );
 	
 	return 0;
 }
