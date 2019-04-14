@@ -46,8 +46,7 @@ int readArray( char *str )
 	
 	while( '\0' != str[i] ) 
 	{
-		printf( "%c ", str[i] );
-		i++;
+		printf( "%c ", str[i++] );
 	}
 	printf( "\n" );
 	return 0;
