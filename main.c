@@ -25,6 +25,8 @@ int main( void )
 
 void copia( char *str1, const char *str2 ) 
 {
+	int a;
+	( void ) a;
 	strcat( str1, str2 );
 	
 }
