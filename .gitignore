@@ -1,3 +1,5 @@
 # Ignoring .o files
 *.o
 *
+!*/
+!*.*
